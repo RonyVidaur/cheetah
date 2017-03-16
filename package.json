@@ -1,22 +1,19 @@
 {
   "name": "cheetah",
-  "version": "0.0.1",
-  "description": "super fast!",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-quill": "^1.0.0-beta-3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RonyVidaur/cheetah.git"
-  },
-  "keywords": [
-    "cheetah"
-  ],
-  "author": "Rony Vidaur",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RonyVidaur/cheetah/issues"
-  },
-  "homepage": "https://github.com/RonyVidaur/cheetah#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
