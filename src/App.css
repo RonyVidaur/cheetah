@@ -802,7 +802,7 @@
   font-size: 32px;
 }
 .ql-snow .ql-color-picker.ql-background .ql-picker-item {
-  background-color: #fff;
+  background-color: blue;
 }
 .ql-snow .ql-color-picker.ql-color .ql-picker-item {
   background-color: #000;
